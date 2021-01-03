@@ -12,6 +12,6 @@
 - CRUD에 대한 이해와 연습
 
 ---
-### More about this project 🔽 Please have a look !
+### More details about this project 🔽 please have a look !
 ---
 https://www.notion.so/Java-JDBC-Oracle-e382ea417ea3496ca0742f650fc187cd
