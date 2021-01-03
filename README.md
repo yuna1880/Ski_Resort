@@ -1,5 +1,7 @@
 #### ⛷ Java + JDBC + (Oracle) 
 
+# Java + JDBC + (Oracle)
+
 - 스키장 예약 프로그램 (자바 콘솔 프로젝트)
 
 ### 💡 프로젝트 목표
@@ -17,13 +19,13 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5de29c74-c068-4881-81f3-1de9af26ce44/Untitled_Diagram-3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5de29c74-c068-4881-81f3-1de9af26ce44/Untitled_Diagram-3.png)
+![Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/Untitled_Diagram-3.png](Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/Untitled_Diagram-3.png)
 
 ### 📊 DB Table
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28a2c6cc-d288-480c-8574-0cfaedd98ad5/KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28a2c6cc-d288-480c-8574-0cfaedd98ad5/KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg)
+![Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg](Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg)
 
 ---
 
@@ -35,7 +37,7 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d90107e-7934-47e5-a5fd-cbb335232676/KakaoTalk_Photo_2020-12-30-3-40-32_pm.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d90107e-7934-47e5-a5fd-cbb335232676/KakaoTalk_Photo_2020-12-30-3-40-32_pm.png)
+![Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/KakaoTalk_Photo_2020-12-30-3-40-32_pm.png](Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/KakaoTalk_Photo_2020-12-30-3-40-32_pm.png)
 
 - 회원 관리 - `MemberVO`, `MemberDao`, `MemberDaoImpl`, `Memberinfo`
 - 로그인 - `LoginDao`, `LoginDaoImpl`
@@ -46,7 +48,7 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9768aefd-9617-426d-be35-665b5231c9fe/Screenshot_2020-12-29_at_11.40.09_pm.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9768aefd-9617-426d-be35-665b5231c9fe/Screenshot_2020-12-29_at_11.40.09_pm.png)
+![Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/Screenshot_2020-12-29_at_11.40.09_pm.png](Java%20+%20JDBC%20+%20(Oracle)%203afa8e1494d7483485bf719cdb475022/Screenshot_2020-12-29_at_11.40.09_pm.png)
 
 ---
 
