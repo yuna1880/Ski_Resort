@@ -74,7 +74,7 @@
 - 메소드 네이밍에 대한 고민
 - 처음 설계시, 보다 명확한 설계를 하지않는다면 완성 후 발생하는 문제점이 치명적일 수 있으니 보다 튼튼하게 할 필요가 있다.
 
-
-##### More details about this project 🔽 please have a look !
 ---
+#### More details about this project 🔽 please have a look !
+
 [👉🏻 click here 👈🏻](https://www.notion.so/Java-JDBC-Oracle-e382ea417ea3496ca0742f650fc187cd)
