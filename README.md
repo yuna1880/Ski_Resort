@@ -14,6 +14,8 @@
 🎿 스키장 회원관리, 로그인, 물품예약, 간식예약 총 4가지 서비스 구현.
 
 ![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e12da500-b1e6-456e-bf63-ae1823ba664b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164120Z&X-Amz-Expires=86400&X-Amz-Signature=ae84265d2f50c32747960efdee45c31f9aa54099e31ff7c61521409263d49b31&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0490b4b9-44af-4379-9ff5-be0be195f2d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T165117Z&X-Amz-Expires=86400&X-Amz-Signature=6b9d38d7b793e07e251f5b3a7461fad36a09f96b1e82ab9be8004ac44f54bb32&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6aeed111-c096-43b1-a5e9-28d9fbcc1d38/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T165142Z&X-Amz-Expires=86400&X-Amz-Signature=76bc99201fbf9622fbbf45d8932f526e1b7630171391e9c1e71d557d70e87fe9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 📊 Project Diagram
 ---
@@ -64,7 +66,7 @@
     REFERENCES MEMBER(ID) on delete cascade;
     ```
 
-    ### 📑 프로젝트 리뷰 및 개선방향
+### 📑 프로젝트 리뷰 및 개선방향
 
     ---
 
