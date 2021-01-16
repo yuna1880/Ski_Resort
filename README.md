@@ -1,4 +1,5 @@
-#### ⛷ Java + JDBC + (Oracle) 
+# ⛷ Java + JDBC + (Oracle) 
+
 ######스키장 예약 프로그램 (자바 콘솔 프로젝트)
 ---
 
@@ -8,8 +9,11 @@
 - 명명규칙, 데이터 입력과 선택 연습
 - 사용자의 관점과 편의를 생각하고 고민.
 - CRUD에 대한 이해와 연습
+
 ---
+
 🎿 스키장 회원관리, 로그인, 물품예약, 간식예약 총 4가지 서비스 구현.
+
 ![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e12da500-b1e6-456e-bf63-ae1823ba664b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164120Z&X-Amz-Expires=86400&X-Amz-Signature=ae84265d2f50c32747960efdee45c31f9aa54099e31ff7c61521409263d49b31&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 📊 Project Diagram
@@ -32,6 +36,44 @@
 - 로그인 - `LoginDao`, `LoginDaoImpl`
 - 물품 예약 - `ReservVO`, `ReservDao`, `ReservDaoImpl`
 - 간식 예약 - `SnackVO`, `SnackDao`, `SnackDaoImpl`
+
+### 📌 프로젝트 진행중 문제점 - 해결방안
+
+---
+![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9768aefd-9617-426d-be35-665b5231c9fe/Screenshot_2020-12-29_at_11.40.09_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164628Z&X-Amz-Expires=86400&X-Amz-Signature=befed3292630ab3edb0fe0a0fd49199c0f1287d2fe9d190d41c4398b0b9493a4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2020-12-29_at_11.40.09_pm.png%22)
+
+### [ 문제점 ]
+
+- **회원탈퇴 시, 회원 테이블 (MEMBER)와 FK로 연결된 (물품, 간식) 테이블에 저장된 데이터가 있으면 회원 탈퇴( 회원 데이터 삭제) 가 불가능했다.**
+
+### [ 해결방안 ]
+
+- 테이블 생성 전, 해당 FK 값에 on delete cascade 제약조건 붙여주기.
+- 테이블 생성 후에는
+
+- [ ]  1) 일단 기존 제약조건 삭제하기.
+
+    ```sql
+    ALTER TABLE RESERV DROP CONSTRAINT FK_RESERV_MEM_ID_MEMBER_ID;
+    ```
+
+- [ ]  2) on delete cascade 붙여서 제약조건 걸어주기.
+
+    ```sql
+    ALTER TABLE RESERV ADD CONSTRAINT FK_RESERV_MEM_ID_MEMBER_ID 
+    FOREIGN KEY (MEM_ID)
+    REFERENCES MEMBER(ID) on delete cascade;
+    ```
+
+    ### 📑 프로젝트 리뷰 및 개선방향
+
+    ---
+
+    - 효율적인 전체 구조 및 흐름에 대한 고민
+    - 중복되는 코드 정리
+    - 메소드 네이밍에 대한 고민
+    - 처음 설계시, 보다 명확한 설계를 하지않는다면 완성 후 발생하는 문제점이 치명적일 수 있으니 보다 튼튼하게 할 필요가 있다.
+
 
 ### More details about this project 🔽 please have a look !
 ---
