@@ -13,17 +13,14 @@
 
 🎿 스키장 회원관리, 로그인, 물품예약, 간식예약 총 4가지 서비스 구현.
 
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e12da500-b1e6-456e-bf63-ae1823ba664b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164120Z&X-Amz-Expires=86400&X-Amz-Signature=ae84265d2f50c32747960efdee45c31f9aa54099e31ff7c61521409263d49b31&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0490b4b9-44af-4379-9ff5-be0be195f2d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T165117Z&X-Amz-Expires=86400&X-Amz-Signature=6b9d38d7b793e07e251f5b3a7461fad36a09f96b1e82ab9be8004ac44f54bb32&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6aeed111-c096-43b1-a5e9-28d9fbcc1d38/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T165142Z&X-Amz-Expires=86400&X-Amz-Signature=76bc99201fbf9622fbbf45d8932f526e1b7630171391e9c1e71d557d70e87fe9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 📊 Project Diagram
 ---
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5de29c74-c068-4881-81f3-1de9af26ce44/Untitled_Diagram-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164223Z&X-Amz-Expires=86400&X-Amz-Signature=d93dafd06ef4688c9d4b9e3f8c9031c6df5c30238cc1e850475aad7b0af6bb6f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled_Diagram-3.png%22)
+
 
 ### 📊 DB Table
 ---
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/28a2c6cc-d288-480c-8574-0cfaedd98ad5/KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164330Z&X-Amz-Expires=86400&X-Amz-Signature=8211d3c55df695a1bbcb10a04ecc4f03d20a143c58eb53dd30956f88addbefa0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_Photo_2021-01-03-3-00-20_pm.jpeg%22)
+
 
 - **회원 테이블의 `아이디` 를 `PK` 값으로 준 뒤, `물품 예약`, `간식 주문`   테이블의   `회원 아이디` 를 `FK` 로 연결해 주었다.**
 - **`물품 예약`, `간식 주문` 테이블의 `주문번호` 에는 `시퀀스` 설정.**
@@ -31,7 +28,7 @@
 
 ### 📃 Java Class Diagram (VO 제외)
 ---
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5d90107e-7934-47e5-a5fd-cbb335232676/KakaoTalk_Photo_2020-12-30-3-40-32_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164436Z&X-Amz-Expires=86400&X-Amz-Signature=bca5160ab245a23a266dd01b47b98e08afdf750191b532b0039bfe88bf59a087&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_Photo_2020-12-30-3-40-32_pm.png%22)
+
 
 - 회원 관리 - `MemberVO`, `MemberDao`, `MemberDaoImpl`, `Memberinfo`
 - 로그인 - `LoginDao`, `LoginDaoImpl`
@@ -41,7 +38,7 @@
 ### 📌 프로젝트 진행중 문제점 - 해결방안
 
 ---
-![image description](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9768aefd-9617-426d-be35-665b5231c9fe/Screenshot_2020-12-29_at_11.40.09_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210116T164628Z&X-Amz-Expires=86400&X-Amz-Signature=befed3292630ab3edb0fe0a0fd49199c0f1287d2fe9d190d41c4398b0b9493a4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2020-12-29_at_11.40.09_pm.png%22)
+
 
 ### [ 문제점 ]
 
