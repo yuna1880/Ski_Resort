@@ -77,4 +77,4 @@
 ---
 #### More details about this project 🔽 please have a look !
 
-[👉🏻 click here 👈🏻](https://www.notion.so/Java-JDBC-Oracle-e382ea417ea3496ca0742f650fc187cd)
+[👉🏻 click here 👈🏻](https://www.notion.so/yunakwon/Java-JDBC-Oracle-e382ea417ea3496ca0742f650fc187cd)
