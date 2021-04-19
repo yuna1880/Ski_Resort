@@ -22,11 +22,11 @@
 
 ### 📊 Project Diagram
 ---
-
+![Untitled_Diagram-3](https://user-images.githubusercontent.com/72509037/115263437-63efc880-a170-11eb-9d4b-3b27b1e0db96.png)
 
 ### 📊 DB Table
 ---
-
+![KakaoTalk_Photo_2021-01-03-3-00-20_pm](https://user-images.githubusercontent.com/72509037/115263444-65b98c00-a170-11eb-94ef-7617dec6a997.jpeg)
 
 - **회원 테이블의 `아이디` 를 `PK` 값으로 준 뒤, `물품 예약`, `간식 주문`   테이블의   `회원 아이디` 를 `FK` 로 연결해 주었다.**
 - **`물품 예약`, `간식 주문` 테이블의 `주문번호` 에는 `시퀀스` 설정.**
@@ -34,7 +34,7 @@
 
 ### 📃 Java Class Diagram (VO 제외)
 ---
-
+![KakaoTalk_Photo_2020-12-30-3-40-32_pm](https://user-images.githubusercontent.com/72509037/115263450-66522280-a170-11eb-873b-7a6b69314465.png)
 
 - 회원 관리 - `MemberVO`, `MemberDao`, `MemberDaoImpl`, `Memberinfo`
 - 로그인 - `LoginDao`, `LoginDaoImpl`
@@ -44,6 +44,7 @@
 ### 📌 프로젝트 진행중 문제점 - 해결방안
 
 ---
+<img width="801" alt="Screenshot_2020-12-29_at_11 40 09_pm" src="https://user-images.githubusercontent.com/72509037/115263537-7964f280-a170-11eb-8f4b-44d2974020b3.png">
 
 
 ### [ 문제점 ]
